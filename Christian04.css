@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.header-text h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 1.5rem;
+}
+
+.btn-visited {
+    background-color: orange;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.rating {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0.625rem;
+}
+
+.rating span {
+    margin: 0 0.3125rem;
+}
+
+.first-opinion {
+    display: block;
+    margin-top: 0.625rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.header-buttons {
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+}
+
+.header-buttons button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.625rem;
+    margin: 0 0.3125rem;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.9375rem 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 1.25rem;
+}
+
+.description {
+    margin-bottom: 1.25rem;
+}
+
+.map {
+    text-align: center;
+}
+
+.map img {
+    width: 100%;
+    max-width: 37.5rem;
+    height: auto;
+}
+
+.Como-llegar {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    margin-top: 0.625rem;
+    cursor: pointer;
+}
+

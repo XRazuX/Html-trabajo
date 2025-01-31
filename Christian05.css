@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    color: black; /* Título en color negro */
+}
+
+.section {
+    margin-bottom: 2.5rem;
+}
+
+.section h2 {
+    background-color: #333; /* Fondo gris oscuro */
+    color: white; /* Subtítulos en color blanco */
+    padding: 0.625rem;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.25rem;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
+    flex-direction: column;
+}
+
+.content img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-bottom: 0.625rem; /* Margen inferior para separar la imagen del texto */
+    align-self: flex-start; /* Alinear la imagen a la izquierda */
+    flex-shrink: 0;
+}
+
+.content p {
+    margin: 0.625rem 0; /* Margen para separar los párrafos */
+    line-height: 1.5;
+    flex: 1;
+    text-align: left;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+

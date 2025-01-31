@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 1.25rem;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.625rem;
+    color: #003366;
+}
+
+p {
+    text-align: justify;
+}
+
+.church {
+    background-color: #ffffff;
+    border: 0.0625rem solid #cccccc;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    overflow: hidden; /* To ensure the layout remains intact */
+}
+
+.church h2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.625rem;
+}
+
+.img-left {
+    float: left;
+    margin-right: 1.25rem;
+}
+
+.img-left img {
+    width: 12.5rem; /* Adjust the width as needed */
+    height: auto;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.img-center img {
+    width: 12.5rem; /* Adjust the width as needed */
+    height: auto;
+}
+
+.img-right {
+    float: right;
+    margin-left: 1.25rem;
+}
+
+.img-right img {
+    width: 12.5rem; /* Adjust the width as needed */
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem 1.25rem;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 0.625rem;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+}
+
+.apps-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url('./igamenes/mini\ icono.png') no-repeat center center;
+    background-size: contain;
+    margin-left: 0.625rem;
+}
+
+.main-content {
+    margin-top: 6.25rem;
+}
+
+.logo img {
+    width: 17rem;
+    height: 5.75rem;
+}
+
+.search-bar {
+    margin-top: 1.25rem;
+}
+
+.search-bar input {
+    width: 31.25rem;
+    padding: 0.625rem;
+    font-size: 1rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 1.5rem;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 0.625rem 1.25rem;
+    margin: 0.625rem;
+    font-size: 0.875rem;
+    color: #fff;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.languages {
+    margin-top: 1.25rem;
+}
+
+.languages a {
+    color: #1a0dab;
+    text-decoration: none;
+    margin: 0 0.3125rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 0.625rem;
+}
+

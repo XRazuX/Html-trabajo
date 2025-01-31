@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo más cercano a la imagen */
+}
+
+header {
+    background-color: #000000; /* Color de fondo de encabezado  */
+    padding: 1.25rem; 
+    text-align: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); 
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff; /* Color del texto del título  */
+}
+
+header h2 {
+    margin: 0;
+    color: #ffffff; /* Color del texto del subtítulo  */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem; 
+}
+
+.imagen {
+    flex: 1;
+    padding: 1.25rem; 
+    text-align: center;
+    background-color: #00000031; /* Fondo  para la sección de la imagen */
+    border: 0.0625rem solid #ddd; 
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-size: 0.9rem; /* Ajuste de tamaño de fuente */
+    color: #424242; /* Color del texto de la descripción  */
+}
+
+.texto {
+    flex: 2;
+    padding: 1.25rem; 
+    background-color: #f0b840; /* Fondo para la sección de texto */
+    border: 0.0625rem solid #ddd; 
+}
+
+.texto h3 {
+    color: #0000006e; /* Color del texto del título  */
+}
+
+footer {
+    background-color: #050505; /* Color de fondo del pie de página  */
+    text-align: center;
+    padding: 0.625rem; 
+    position: relative; 
+    width: 100%;
+    bottom: 0;
+    color: #ffffff; /* Color del texto del pie de página  */
+}
+
+footer p {
+    margin: 0.3125rem; 
+}
